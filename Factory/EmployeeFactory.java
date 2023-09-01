@@ -3,6 +3,7 @@ package Factory;
 // * Factory class which gives a relevant object at run time
 public class EmployeeFactory { 
     
+    // Factory method 
     public static Employee getEmployee(String empType){
         if(empType.trim().equalsIgnoreCase("ANDROID DEVELOPER")){
             return new AndroidDeveloper();
