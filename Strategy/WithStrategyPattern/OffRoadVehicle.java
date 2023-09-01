@@ -1,0 +1,7 @@
+package Strategy.WithStrategyPattern;
+
+public class OffRoadVehicle extends Vehicle {
+    OffRoadVehicle(){
+        super(new SpecialDriveStrategy());
+    }
+}
